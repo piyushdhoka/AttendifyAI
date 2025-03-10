@@ -1,0 +1,63 @@
+Attendify AI
+
+Visit Attendify AI
+
+Attendify AI is an advanced facial recognition attendance system that streamlines attendance management through artificial intelligence. It leverages cutting-edge computer vision techniques to accurately recognize faces and record attendance with minimal human intervention.
+
+Features
+
+Face Registration: Register faces with personal information (name, roll number, SRN number).
+
+Attendance Marking: Automated attendance through facial recognition.
+
+Real-Time Processing: Quickly detects and marks attendance.
+
+Data Storage: Uses SQL for structured and reliable data management.
+
+Modern UI: Clean and responsive design, compatible with various devices.
+
+Webcam Integration: Direct webcam access for attendance marking.
+
+Technologies Used
+
+Backend: Flask (Python)
+
+Frontend: React.js
+
+Database: SQL
+
+Face Recognition: dlib and OpenCV
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/username/attendify-ai.git
+cd attendify-ai
+
+Install backend dependencies:
+
+pip install -r backend/requirements.txt
+
+Set up the frontend:
+
+cd frontend
+npm install
+npm start
+
+Run the backend server:
+
+cd backend
+flask run
+
+Usage
+
+Register new students by uploading their photos.
+
+Access the attendance dashboard.
+
+Use the "Mark Attendance" feature to open the webcam and record attendance.
+
+Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull req
